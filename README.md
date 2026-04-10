@@ -83,7 +83,7 @@ This application is ideal for students, professionals, and anyone looking to imp
 
 ## 🔗 Live Demo
 
-(Add your deployed project link here)
+smart-task-manager-60ru8gy8y-salmanraju657s-projects.vercel.app
 
 ---
 
