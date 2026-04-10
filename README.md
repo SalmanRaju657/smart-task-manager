@@ -77,7 +77,7 @@ This application is ideal for students, professionals, and anyone looking to imp
 
 ## 📷 Preview
 
-(Add your project screenshot here)
+<img src="./screenshot.png" width="800"/>
 
 ---
 
