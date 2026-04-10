@@ -1,0 +1,129 @@
+/* 🔥 Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-section input:focus {
+    border-color: #667eea;
+}
+
+/* Buttons */
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+    transform: scale(1.05);
+}
+
+/* Filter buttons */
+.filters {
+    margin-bottom: 15px;
+}
+
+.filters button {
+    background: #eee;
+    color: #333;
+}
+
+.filters button:hover {
+    background: #667eea;
+    color: white;
+}
+
+/* Todo Item */
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #f9f9f9;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: translateX(5px);
+    background: #f1f3ff;
+}
+
+/* Text */
+li p {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Checkbox */
+li input[type="checkbox"] {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Edit button */
+li button:nth-child(3) {
+    background: #f6ad55;
+}
+
+li button:nth-child(3):hover {
+    background: #ed8936;
+}
+
+/* Delete button */
+li button:nth-child(4) {
+    background: #fc8181;
+}
+
+li button:nth-child(4):hover {
+    background: #e53e3e;
+}
